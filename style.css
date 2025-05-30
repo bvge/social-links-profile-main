@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+div > main {
+  display: flex;
+  justify-content: center;
+}
+div {
+  margin: 10% auto;
+  border: 1px solid hsl(0, 0%, 20%);
+  width: 330px;
+  height: 450px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 12%);
+  img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+  }
+}
+div > aside {
+  padding: 20px;
+}
+div > aside > p:nth-child(1) {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div > aside > p:nth-child(2) {
+  font-size: 16px;
+  color: hsl(75, 94%, 57%);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div > aside > p:nth-child(3) {
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+div > section > button {
+  font-weight: bold;
+  background-color: hsl(0, 0%, 20%);
+  border: 0px;
+  padding: 8px;
+  width: 300px;
+  border-radius: 10px;
+}
+div > section > button:hover {
+  background-color: hsl(75, 94%, 57%);
+  a{
+    color: black;
+    text-shadow: 2px 3px 5px;
+  }
+}
+div > section > button > a{
+    text-decoration: none;
+    color: white;
+}
+
